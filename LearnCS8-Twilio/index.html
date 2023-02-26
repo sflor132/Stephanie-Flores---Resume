@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="New! Sanrio My Melody and Kuromi Blind Bag!">
+    <meta name="author" content="862329234">
+
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<!-- Title of your Website -->
+    <title>My Melody and Kuromi My Favorite Color Figurine Blind Bag</title>
+    <link href="product.css" rel="stylesheet">
+    </head>
+    <body>
+ <nav class="site-header sticky-top py-1">
+<!-- Top Menu Bar -->
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+<a class="py-2 d-none d-md-inline-block" id="menu-item-1" href="https://www.sanrio.com/" target="_blank">Sanrio</a>
+<a class="py-2 d-none d-md-inline-block" id="menu-item-2" href="https://www.fivebelow.com/" target="_blank">Five Below</a>
+<a class="py-2 d-none d-md-inline-block" id="menu-item-3" href="https://www.target.com/?ref=tgt_adv_XS000000&AFID=google&fndsrc=tgtao&DFA=71700000012637812&CPNG=Other_Target%2BBrand%7CHoliday_Ecomm_Other&adgroup=Core+Branded+Keywords&LID=700000001170706&LNM=target&MT=e&network=g&device=c&location=9031443&targetid=kwd-19131461&gclid=CjwKCAiAlp2fBhBPEiwA2Q10D0sX5itESCcsBfUziYBOiLd9acwYX0if50r0qxtfLf_3lF_MkIZasBoClAMQAvD_BwE&gclsrc=aw.ds" target="_blank">Target</a>
+<a class="py-2 d-none d-md-inline-block" id="menu-item-4" href="https://www.walmart.com/?&adid=22222222220220085369&wmlspartner=wmtlabs&wl0=e&wl1=g&wl2=c&wl3=521205638070&wl4=kwd-27665750&wl5=9031443&wl6=&wl7=&wl8=&veh=sem&gclid=CjwKCAiAlp2fBhBPEiwA2Q10D1OGuQeGEKfYCsI-Xs6Y7LBUVonzJCYbkOc5MuiOque-kUbt3iLhwxoCo7MQAvD_BwE&gclsrc=aw.ds" target="_blank">Walmart</a>
+<a class="py-2 d-none d-md-inline-block" id="menu-item-5" href="https://best.aliexpress.com/?af=5bc719ad3d1c1&dp=5bc719ad3d1c1&aff_fcid=87ba963c94ab4a4a83ee74a260154144-1676171187331-09287-_AdZIyM&tt=CPS_NORMAL&aff_fsk=_AdZIyM&aff_platform=portals-promotion&sk=_AdZIyM&aff_trace_key=87ba963c94ab4a4a83ee74a260154144-1676171187331-09287-_AdZIyM&terminal_id=0928347fc537440f8bb4d05c69e2663e" target="_blank">AliExpress</a>
+<a class="py-2 d-none d-md-inline-block" id="menu-item-6" href="https://www.ebay.com/" target="_blank">Ebay</a>
+<a class="py-2 d-none d-md-inline-block" id="menu-item-7" href="https://www.amazon.com/?tag=amazusnavi-20&hvadid=381823287328&hvpos=&hvnetw=g&hvrand=10109593019199676378&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031443&hvtargid=kwd-141118230&ref=pd_sl_45vpgydmha_e&hydadcr=28883_11845442&gclid=CjwKCAiAlp2fBhBPEiwA2Q10D3d_UF0RQhgS1aEDYe2viCoxBem5WbXQs4TfQqaET11d3B3PomuZHBoCfXYQAvD_BwE" target="_blank">Amazon</a>
+    </div>
+</nav>
+<!-- Main Header Section h1-->
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-0 text-center bg-light">
+    <div class="col-md-8 p-lg-5 mx-auto my-5">
+<h1 class="display-4 font-weight-normal">Collect All New Characters!</h1>
+<p class="lead font-weight-normal">5 all new My Melody and Kuromi characters to collect! Including the special Kuromi holding her favorite cherry and My Melody with her stunning strawberry! </p>
+<a class="btn btn-outline-secondary" href="https://www.youtube.com/watch?v=onREP2cQKVI" target="_blank">Preview</a>
+    </div>
+</div>
+</nav>
+<!-- Left Tile -->
+<div class="d-md-flex flex-md-equal w-100">
+    <div class="bg-dark pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+<div class="my-3 py-3">
+<h2 class="display-5">Sign up</h2>
+<p class="lead">Sign up now to get instant access to our educational content</p>
+</div>
+<!-- Web form when submitted will send a text message -->
+<form class="p-2" onsubmit="sendTextMessage(); return false;">
+<!-- Full Name Form Field -->
+<div class="form-group">
+<label for="example-first-name">Full Name</label>
+<input type="text" value="Full Name" class="form-control" id="example-first-name" aria-describedby="emailHelp">
+</div>
+<!-- Phone Number Form Field -->
+<div class="form-group">
+<label for="example-tel-input">Phone number</label>
+<input type="tel" class="form-control" value="1408555555" id="example-tel-input">
+</div>
+<!-- JavaScript that handles onSubmit logic -->
+<!-- Configure the XHR request below with your own credentials -->
+<script>
+function sendTextMessage() {
+console.log("Hello world!");
+var xhr = new XMLHttpRequest();
+var accountSID = "ACd203ff2af3bbbc13a0eccb43abf7ff5b";
+var authToken = "9cb9e856dc962dfc0cd405fcb20c6511";
+var base64encoded = accountSID + ":" + authToken;
+var params = "To=" + document.getElementById('example-tel-input').value + "&From=" + "18447711450" + "&Body=" + "Hello " + document.getElementById('example-first-name').value + "hi"
+xhr.open("POST", "https://api.twilio.com/2010-04-01/Accounts/" + accountSID + "/Messages.json", true);
+xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+ xhr.setRequestHeader('Authorization', 'Basic ' + btoa(base64encoded));
+xhr.send(params);
+}
+    </script>
+<!-- Submit button that will execute the sendTextMessage function -->
+<button type="submit" class="btn btn-primary">Submit</button></form>
+    </div>
+<!-- Right Tile -->
+    <div class="bg-light pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 p-3">
+    <h2 class="display-5">Another Section</h2>
+    <p class="lead">Put some text here about the company or product you are talking about. Then below add an image</p>
+    <img class="mx-auto" src="example_image.jpeg" height="250px">
+    </div>
+    <div class="mx-auto" style="width: 80%; height: 100px; border-radius: 21px 21px 0 0;"></div>
+    </div>
+</div>
+    </body>
+</html>
